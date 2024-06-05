@@ -106,6 +106,7 @@ body {
 
 .wave_mob {
   display: none;
+  max-width: 500px;
 }
 
 .illu {
@@ -363,7 +364,7 @@ body {
 
 .quote {
   position: absolute;
-  top: 32%;
+  top: 33%;
   left: 11%;
 }
 
