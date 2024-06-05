@@ -106,7 +106,6 @@ body {
 
 .wave_mob {
   display: none;
-  max-width: 500px;
 }
 
 .illu {
@@ -171,6 +170,7 @@ body {
     position: absolute;
     left: 0;
     top: 210px;
+    max-width: 500px;
   }
   .bk_2 {
     max-width: 500px;
