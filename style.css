@@ -168,17 +168,27 @@ body {
   .wave_mob {
     display: inline;
     position: absolute;
-    left: 0;
-    top: 210px;
+    left: 15px;
+    top: 270px;
     max-width: 500px;
   }
   .bk_2 {
     max-width: 500px;
     width: 100%;
-    height: 480px;
+    height: 320px;
     background-color: var(--dark-blue-2);
     position: absolute;
-    bottom: -238px;
+    bottom: -140px;
+  }
+  .section1 button {
+    border: 0px solid;
+    margin-top: 30px;
+
+    border-radius: 30px;
+    font-size: 15px;
+    color: var(--white);
+    background-color: var(--blue);
+    position: relative;
   }
 }
 /* ================section2======================== */
@@ -229,6 +239,10 @@ body {
   .grid-container div img {
     width: 50;
     height: 55px;
+  }
+  .section2 {
+    background-color: var(--dark-blue-2);
+    margin-top: 140px;
   }
 }
 
